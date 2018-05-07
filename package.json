@@ -1,0 +1,17 @@
+{
+  "name": "test_webrtc_jung",
+  "version": "1.0.0",
+  "description": "node server for unity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "unity",
+    "webrtc"
+  ],
+  "author": "zseilx",
+  "license": "ISC"
+}
