@@ -12,6 +12,12 @@
     "unity",
     "webrtc"
   ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "requirejs": "^2.2.0",
+    "typescript": "1.8.9",
+    "ws": "^1.1.0"
+  },
   "author": "zseilx",
   "license": "ISC"
 }
