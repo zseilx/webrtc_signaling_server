@@ -26,6 +26,7 @@ var WebsocketNetworkServer = (function () {
 }());
 exports.WebsocketNetworkServer = WebsocketNetworkServer;
 ;
+
 //Pool of client connects that are allowed to communicate to each other
 var PeerPool = (function () {
     function PeerPool(config) {
@@ -94,6 +95,8 @@ var PeerPool = (function () {
     };
     return PeerPool;
 }());
+;
+
 var SignalingConnectionState;
 (function (SignalingConnectionState) {
     SignalingConnectionState[SignalingConnectionState["Uninitialized"] = 0] = "Uninitialized";

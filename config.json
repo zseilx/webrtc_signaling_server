@@ -7,7 +7,7 @@
         1048576,
     "app":
     {
-        "name": "Test",
-        "path": "/"
+        "name": "VoiceChatApp",
+        "path": "/voicechatapp"
     }
 }
