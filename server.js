@@ -11,6 +11,7 @@ var config = require("./config.json");
 var http = require("http");
 //var socket = require("socket.io");
 var ws = require('ws');
+var wns = require('./WebsocketNetworkServer');
 
 
 var httpServer = null;
@@ -21,7 +22,6 @@ if (config.httpConfig) {
         ,function () { console.log('Listening on ' + httpServer.address().port); }
     );
 }
-
 
 var websocketSignalingServer = new wns.WebsocketNetworkServer()
 if (httpServer) {
